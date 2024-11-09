@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Minecraft Server</h1>
+        <p>Click the button below to start the server on Aternos</p>
+        <a href="https://aternos.org/go/" class="btn">Start Server</a>
+    </div>
+</body>
+</html>
